@@ -15,110 +15,125 @@
 
 <!-- nav bar - fix to top of window -->
 		<nav>
-			<ul>
-				<li>Beer</li>
-				<li>Bars</li>
-				<li>logo</li>
-				<li>Breweries</li>
-				<li>Beer trails</li>
-			</ul>
+			<a href="#bars">bars</a>
+			<a href="#beer">beer</a>
+			<a href="" class="logo">YCB</a>
+			<a href="#breweries">breweries</a>
+			<a href="#trails">trails</a>
 		</nav>
-
-<!-- set up grid container for layout-->
-		<!--  <div class="container"> -->
+<!-- SORT OUT: links don't show the banner because of the nav bar -->
 
 <!-- homepage header -->
-			<div class="header">
-				<div class="content">
-					<h1>York craft beer</h1>
-					<h2>Great beer, bars and breweries <br /> in and around York</h2>
-				</div>
+		<div class="header">
+			<div class="content">
+				<h1>York Craft Beer</h1>
+				<h2>Great beer, bars and breweries in and around York</h2>
 			</div>
+			<img src="images/skyline.png" alt="line drawing of the York skyline">
+		</div>
 
+		<main>
 	<!-- BARS -->
-			<h2 class="sectionheader">Bars</h2>
-			<div class="section">
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/bar_example.jpg">
-					<h3 class="name">House of the Trembling Madness</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">Central</p>
-					<p class="description">US-style IPAs, dark casks and usually a belgian beer in a medieaval building overlooking York Minster</p>
-				</div>
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/bar_example.jpg">
-					<h3 class="name">The Falcon Tap</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">Micklegate</p>
-					<p class="description">Good range of cask and keg, from mostly local breweries</p>
-				</div>
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/bar_example.jpg">
-					<h3 class="name">Brew York</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">Walmgate</p>
-					<p class="description">Tap room of the local brewery, with lots of beers hard to find elsewhere</p>
-				</div>
-			</div>
-
-<!-- BEERS -->
-			<h2 class="sectionheader">Beers</h2>
-			<div class="section">
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/bar_example.jpg">
-					<h3 class="name">House of the Trembling Madness</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">Central</p>
-					<p class="description">US-style IPAs, dark casks and usually a belgian beer in a medieaval building overlooking York Minster</p>
-				</div>
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/bar_example.jpg">
-					<h3 class="name">The Falcon Tap</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">Micklegate</p>
-					<p class="description">Good range of cask and keg, from mostly local breweries</p>
-				</div>
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/bar_example.jpg">
-					<h3 class="name">Brew York</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">Walmgate</p>
-					<p class="description">Tap room of the local brewery, with lots of beers hard to find elsewhere</p>
+<!-- SORT OUT: sectionpost divs need to be changed to links to the page -->
+			<div id="bars">
+				<h2 class="sectionheader">pubs & bars</h2>
+				<div class="section">
+					<div class="sectionpost">
+						<img class="photo" src="images/bars/tm.jpg">
+						<h3 class="name">House of the Trembling Madness</h3>
+						<p class="location">  <img class="icon" src="images/location.png"> Central</p>
+						<!-- <p class="description">US-style IPAs, dark casks and usually a belgian beer in a medieaval building overlooking York Minster</p> -->
+					</div>
+					<div class="sectionpost">
+						<img class="photo" src="images/bars/falcon.jpg">
+						<h3 class="name">The Falcon Tap</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> Micklegate</p>
+						<!-- <p class="description">Good range of cask and keg, from mostly local breweries</p> -->
+					</div>
+					<div class="sectionpost">
+						<img class="photo" src="images/bars/brewdog.jpg">
+						<h3 class="name">Brew Dog</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> Micklegate</p>
+						<!-- <p class="description">It's Brew Dog, you know how this works</p> -->
+					</div>
 				</div>
 			</div>
 
-<!-- BREWERIES -->
-			<h2 class="sectionheader">Breweries</h2>
-			<div class="section">
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/bar_example.jpg">
-					<h3 class="name">Brew York</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">York</p>
-					<p class="description">A wide-ranging offering of cask, keg and some cans. Lots of interesting ingredients. Offers tours</p>
-				</div>
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/turning_point.png">
-					<h3 class="name">Turning Point</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">Kirkbymoorside</p>
-					<p class="description">Quite new, with a great modern style range</p>
-				</div>
-				<div class="sectionpost">
-					<img class="photo" src="/Users/louise/Documents/York_craft_beer/images/bar_example.jpg">
-					<h3 class="name">Brass Castle</h3>
-					<img class="icon" src="/Users/louise/Documents/York_craft_beer/images/location.png">
-					<p class="location">Malton</p>
-					<p class="description">Gluten-free, vegan and delicious</p>
+	<!-- BEERS -->
+			<div id="beers">
+				<h2 class="sectionheader">beers found in york</h2>
+				<div class="section">
+					<div class="sectionpost">
+						<img class="photo" src="images/beers/roosters_onetrickpony.png">
+						<h3 class="name">One Trick Pony</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> Roosters (collab with Hawkshead)</p>
+						<p class="description">rose lemonade sour</p>
+					</div>
+					<div class="sectionpost">
+						<img class="photo" src="images/beers/brasscastle_badkitty.png">
+						<h3 class="name">The Falcon Tap</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> Brass Castle</p>
+						<p class="description">vanilla porter</p>
+					</div>
+					<div class="sectionpost">
+						<img class="photo" src="images/beers/vocation_yakimapilsner.png">
+						<h3 class="name">Brew York</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> Vocation</p>
+						<p class="description">as suggested, pilsner with yakima hops</p>
+					</div>
 				</div>
 			</div>
 
-<!-- for grid container
-	</div>
--->
+	<!-- BREWERIES -->
+			<div id="breweries">
+				<h2 class="sectionheader">yorkshire breweries</h2>
+				<div class="section">
+					<div class="sectionpost">
+						<img class="photo" src="images/breweries/brewyork_logo.jpg">
+						<h3 class="name">Brew York</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> York</p>
+						<p class="description">york's newest brewery, onsite taproom</p>
+					</div>
+					<div class="sectionpost">
+						<img class="photo" src="images/breweries/turning_point.png">
+						<h3 class="name">Turning Point</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> Kirkbymoorside</p>
+						<p class="description">still a new boy, developing quickly</p>
+					</div>
+					<div class="sectionpost">
+						<img class="photo" src="images/breweries/brasscastle_logo.png">
+						<h3 class="name">Brass Castle</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> Malton</p>
+						<p class="description">gluten-free, mostly vegan and delicious</p>
+					</div>
+				</div>
+			</div>
+
+	<!-- BEER TRAILS		 -->
+			<div id="trails">
+				<h2 class="sectionheader">beer trails</h2>
+				<div class="section">
+					<div class="sectionpost">
+						<img class="photo" src="images/trails/york_station.png">
+						<h3 class="name">station & micklegate</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> York</p>
+					</div>
+					<div class="sectionpost">
+						<img class="photo" src="images/trails/york_walls.png">
+						<h3 class="name">city walls</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> York</p>
+					</div>
+					<div class="sectionpost">
+						<img class="photo" src="images/trails/harrogate_old.png">
+						<h3 class="name">new & old</h3>
+						<p class="location"> <img class="icon" src="images/location.png"> Harrogate</p>
+					</div>
+				</div>
+			</div>
+		</main>
 
 		<footer>
-			<p>&copy York Craft Beer<p>
+			<p>all photos by the breweries<p>
 		</footer>
 
 	</body>
